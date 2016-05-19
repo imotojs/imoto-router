@@ -1,0 +1,31 @@
+{
+  "name": "imoto-router",
+  "version": "0.0.0",
+  "description": "imoto's FE router",
+  "keywords": [
+    "mvvm",
+    "imoto",
+    "router"
+  ],
+  "scripts": {
+    "dev": "cooking watch",
+    "dist": "cooking build"
+  },
+  "files": [
+    "README.md",
+    "dist/"
+  ],
+  "author": "youngerheart",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imotojs/imoto-router/imoto-router.git"
+  },
+  "homepage": "https://github.com/imotojs/imoto-router/imoto-router#readme",
+  "bugs": {
+    "url": "https://github.com/imotojs/imoto-router/imoto-router/issues"
+  },
+  "devDependencies": {
+    "imoto": "^0.0.0"
+  }
+}
