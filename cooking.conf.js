@@ -1,9 +1,17 @@
 var cooking = require('cooking');
 
 cooking.set({
-  entry: './src/app.js',
+  entry: {
+    index: './src/index.js',
+    demo: './demo/app.js'
+  },
   dist: './dist',
-  template: 'src/index.tpl',
+  template: {
+    'index.html': {
+      template: 'demo/index.tpl',
+      chunks: ['demo']
+    }
+  },
   // development
   devServer: true,
 
@@ -14,4 +22,3 @@ cooking.set({
 });
 
 module.exports = cooking.resolve();
-

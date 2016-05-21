@@ -8,5 +8,4 @@
   <body>
     <!-- built files will be auto injected -->
   </body>
-  <script type="text/javascript" src="../node_modules/imoto/dist/imoto.js"></script>
 </html>
