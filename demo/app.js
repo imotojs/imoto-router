@@ -2,8 +2,8 @@ import Imoto from 'imoto';
 import ImotoRouter from '../src/index.js';
 import Index from './pages/index.js';
 import Cart from './pages/cart.js';
-
 Imoto.use(ImotoRouter);
+
 let router = new ImotoRouter({
   hashbang: false,
   history: true
@@ -28,4 +28,4 @@ class App extends Imoto {
   }
 }
 
-router.start(App);
+router.start(App, 'app');
