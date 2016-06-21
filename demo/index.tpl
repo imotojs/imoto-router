@@ -6,6 +6,6 @@
     <title>imoto-router</title>
   </head>
   <body>
-    <!-- built files will be auto injected -->
+    <app></app>
   </body>
 </html>

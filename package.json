@@ -26,6 +26,6 @@
     "url": "https://github.com/imotojs/imoto-router/imoto-router/issues"
   },
   "devDependencies": {
-    "imoto": "^0.0.0"
+    "imoto": "^0.0.5"
   }
 }
